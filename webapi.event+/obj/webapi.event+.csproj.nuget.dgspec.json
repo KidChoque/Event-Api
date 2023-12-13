@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\53297269804\\Desktop\\Nova pasta (2)\\2023-1S-2D\\sprint-2-api\\Event+\\webapi.event+\\webapi.event+.csproj": {}
+    "C:\\Users\\53297269804\\Desktop\\Nova pasta (3)\\webapi.event+\\webapi.event+.csproj": {}
   },
   "projects": {
-    "C:\\Users\\53297269804\\Desktop\\Nova pasta (2)\\2023-1S-2D\\sprint-2-api\\Event+\\webapi.event+\\webapi.event+.csproj": {
+    "C:\\Users\\53297269804\\Desktop\\Nova pasta (3)\\webapi.event+\\webapi.event+.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\53297269804\\Desktop\\Nova pasta (2)\\2023-1S-2D\\sprint-2-api\\Event+\\webapi.event+\\webapi.event+.csproj",
+        "projectUniqueName": "C:\\Users\\53297269804\\Desktop\\Nova pasta (3)\\webapi.event+\\webapi.event+.csproj",
         "projectName": "webapi.event+",
-        "projectPath": "C:\\Users\\53297269804\\Desktop\\Nova pasta (2)\\2023-1S-2D\\sprint-2-api\\Event+\\webapi.event+\\webapi.event+.csproj",
+        "projectPath": "C:\\Users\\53297269804\\Desktop\\Nova pasta (3)\\webapi.event+\\webapi.event+.csproj",
         "packagesPath": "C:\\Users\\53297269804\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\53297269804\\Desktop\\Nova pasta (2)\\2023-1S-2D\\sprint-2-api\\Event+\\webapi.event+\\obj\\",
+        "outputPath": "C:\\Users\\53297269804\\Desktop\\Nova pasta (3)\\webapi.event+\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\53297269804\\AppData\\Roaming\\NuGet\\NuGet.Config",

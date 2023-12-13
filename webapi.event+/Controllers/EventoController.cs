@@ -44,6 +44,22 @@ namespace webapi.event_.Controllers
             }
         }
 
+
+        [HttpGet("ListarAnteriores")]
+        public IActionResult GetPastEvents()
+        {
+            try
+            {
+                return Ok(_eventoRepository.ListarAnteriores());
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
+
+
+
         [HttpGet("{id}")]
         public IActionResult GetById(Guid id)
         {
@@ -56,6 +72,8 @@ namespace webapi.event_.Controllers
                 return BadRequest(e.Message);
             }
         }
+
+
 
         [HttpPost]
         public IActionResult Post(Evento evento)
