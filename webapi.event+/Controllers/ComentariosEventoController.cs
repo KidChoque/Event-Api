@@ -106,6 +106,23 @@ namespace webapi.event_.Controllers
                     }
         }
 
+
+        [HttpGet("BuscarPorIdEvento")]
+        public IActionResult GetByIdEvent(Guid idEvento)
+        {
+            try
+            {
+                return Ok(comentario.BuscarPoridEvento(idEvento));
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
+
+
+
+
         [HttpPost]
         public IActionResult Post(ComentariosEvento novoComentario)
         {

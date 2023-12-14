@@ -133,6 +133,27 @@
         }
       }
     },
+    "/api/ComentariosEvento/BuscarPorIdEvento": {
+      "get": {
+        "tags": [
+          "ComentariosEvento"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "idEvento",
+            "type": "string",
+            "format": "uuid",
+            "collectionFormat": "multi"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Evento": {
       "get": {
         "tags": [
